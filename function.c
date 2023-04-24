@@ -25,11 +25,11 @@ int print_char(va_list types, char buffer[],
  * print_string - Prints a string
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates active flags.
  * @width: get width.
  * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * @size: Size specifier.
+ * Return: Number  chars printed
  */
 
 int print_string(va_list types, char buffer[],
@@ -150,8 +150,8 @@ int print_int(va_list types, char buffer[],
 /**
  * print_binary - Prints an unsigned number
  * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @buffer: Buffer array to handle print.
+ * @flags:  Calculates active flags.
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier

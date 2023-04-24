@@ -7,7 +7,7 @@
  * @buffer: Bufer array to handle print.
  * @flags: Calculates active flags in function
  * @width: get width.
- * @precision: Precision specification
+ * @precision: Precision of specification
  * @size: Size of specifier
  * Return: 1 or 2;
  */
